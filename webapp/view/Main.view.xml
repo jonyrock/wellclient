@@ -1,0 +1,16 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.lambda.sberdeal.controller.Main" id="">
+	<App>
+		<pages>
+			<Page id="mainPage">
+				<content>
+				    <VBox width="100%" direction="Column" id="featuresContainer">
+				    </VBox>
+				    <Button text="Button" width="100px" id="__button0" press="onSearch"/>
+				</content>
+			<headerContent>
+			    <Input width="100%" id="searchView"/>
+			</headerContent>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+<sap.ui.layout:VerticalLayout width="100%" xmlns:sap.ui.layout="sap.ui.layout" id="__layout0">
+    <sap.ui.layout:content>
+        <Label text="Label" width="100%" id="paramName" textAlign="Center"/>
+        <HBox width="100%" id="__hbox0" alignItems="Center" fitContainer="false" justifyContent="SpaceBetween">
+            <items>
+                <Label text="Label" width="100%" id="paramMin"/>
+                <Slider id="paramValue" width="220px"/>
+                <Label text="Label" width="100%" id="paramMax" textAlign="End"/>
+            </items>
+        </HBox>
+    </sap.ui.layout:content>
+</sap.ui.layout:VerticalLayout>
+</core:FragmentDefinition>
